@@ -1,0 +1,61 @@
+services:
+
+  mlflow:
+    image: ghcr.io/mlflow/mlflow
+    container_name: mlflow
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./mlruns:/mlflow/mlruns
+    command: >
+      mlflow ui
+      --host 0.0.0.0
+      --port 5000
+      --backend-store-uri file:/mlflow/mlruns
+
+  recsys:
+    build: .
+    container_name: recsys
+    depends_on:
+      - mlflow
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+      - ./mlruns:/mlflow/mlruns
+    environment:
+      - MLFLOW_TRACKING_URI=file:/mlflow/mlruns
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
+
+  trainer:
+    build: .
+    container_name: trainer
+    depends_on:
+      - mlflow
+    volumes:
+      - .:/app
+      - ./mlruns:/mlflow/mlruns
+    environment:
+      - MLFLOW_TRACKING_URI=file:/mlflow/mlruns
+    command: ["python", "src/train.py"]
+
+  prometheus:
+    image: prom/prometheus
+    container_name: prometheus
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+
+
+  grafana:
+    image: grafana/grafana
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    volumes: 
+      - grafana-storage:/var/lib/grafana
+
+
+volumes: 
+  grafana-storage: 

@@ -1,0 +1,14 @@
+artifact_uri: file:///mlflow/mlruns/350003706512717624/6573bac8a2a5413681b397aba99ddd28/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '350003706512717624'
+lifecycle_stage: active
+run_id: 6573bac8a2a5413681b397aba99ddd28
+run_name: likeable-fly-407
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777277798310
+status: 1
+tags: []
+user_id: root

@@ -1,0 +1,14 @@
+artifact_uri: file:///mlflow/mlruns/350003706512717624/42145740726249cabdc89b8b1d337e5b/artifacts
+end_time: 1776793536857
+entry_point_name: ''
+experiment_id: '350003706512717624'
+lifecycle_stage: active
+run_id: 42145740726249cabdc89b8b1d337e5b
+run_name: ambitious-colt-272
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776793519488
+status: 3
+tags: []
+user_id: root

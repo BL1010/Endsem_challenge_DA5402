@@ -1,0 +1,14 @@
+artifact_uri: file:///mlflow/mlruns/350003706512717624/327a5d9b71f0412b8f6f4e5f2b08689e/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '350003706512717624'
+lifecycle_stage: active
+run_id: 327a5d9b71f0412b8f6f4e5f2b08689e
+run_name: delightful-stoat-884
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777276942432
+status: 1
+tags: []
+user_id: root

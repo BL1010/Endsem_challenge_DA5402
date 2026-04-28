@@ -1,0 +1,14 @@
+artifact_uri: file:///mlflow/mlruns/350003706512717624/27dee489af984336ac0d5f39850df8bc/artifacts
+end_time: 1776793179532
+entry_point_name: ''
+experiment_id: '350003706512717624'
+lifecycle_stage: active
+run_id: 27dee489af984336ac0d5f39850df8bc
+run_name: clumsy-pug-904
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776793158815
+status: 3
+tags: []
+user_id: root

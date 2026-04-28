@@ -1,0 +1,14 @@
+artifact_uri: file:///mlflow/mlruns/350003706512717624/01e290e2ee9f422daa4cacbb6454f6e2/artifacts
+end_time: 1777004563856
+entry_point_name: ''
+experiment_id: '350003706512717624'
+lifecycle_stage: active
+run_id: 01e290e2ee9f422daa4cacbb6454f6e2
+run_name: flawless-doe-504
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777004393863
+status: 3
+tags: []
+user_id: root

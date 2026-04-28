@@ -1,0 +1,14 @@
+artifact_uri: file:///mlflow/mlruns/350003706512717624/9e4796b98631425b92db71d677723007/artifacts
+end_time: 1776780275526
+entry_point_name: ''
+experiment_id: '350003706512717624'
+lifecycle_stage: active
+run_id: 9e4796b98631425b92db71d677723007
+run_name: popular-pig-426
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1776780259628
+status: 3
+tags: []
+user_id: root

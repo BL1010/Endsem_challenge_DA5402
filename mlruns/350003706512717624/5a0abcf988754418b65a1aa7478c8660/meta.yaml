@@ -1,0 +1,14 @@
+artifact_uri: file:///mlflow/mlruns/350003706512717624/5a0abcf988754418b65a1aa7478c8660/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '350003706512717624'
+lifecycle_stage: active
+run_id: 5a0abcf988754418b65a1aa7478c8660
+run_name: enchanting-fox-740
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777022608788
+status: 1
+tags: []
+user_id: root

@@ -1,0 +1,14 @@
+artifact_uri: file:///mlflow/mlruns/350003706512717624/6dcff3eb4cc147d68574e5a9297e7e1e/artifacts
+end_time: 1777292656541
+entry_point_name: ''
+experiment_id: '350003706512717624'
+lifecycle_stage: active
+run_id: 6dcff3eb4cc147d68574e5a9297e7e1e
+run_name: enchanting-ram-658
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777286441242
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,14 @@
+artifact_uri: file:///mlflow/mlruns/350003706512717624/766af430c0894cbbb4d8f7b3f3c6c4c1/artifacts
+end_time: 1777009646677
+entry_point_name: ''
+experiment_id: '350003706512717624'
+lifecycle_stage: active
+run_id: 766af430c0894cbbb4d8f7b3f3c6c4c1
+run_name: victorious-fowl-62
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777005480723
+status: 3
+tags: []
+user_id: root

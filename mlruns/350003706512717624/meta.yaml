@@ -1,0 +1,8 @@
+artifact_location: file:///mlflow/mlruns/350003706512717624
+creation_time: 1776780259537
+experiment_id: '350003706512717624'
+last_update_time: 1776780259537
+lifecycle_stage: active
+name: recsys-neumf
+trace_location: null
+workspace: default

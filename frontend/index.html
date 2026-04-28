@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommender System</title>
+</head>
+<body>
+    <h1>Movie Recommender</h1>
+
+    <input id="user" placeholder="User ID">
+    <input id="k" placeholder="Top K">
+
+    <button onclick="recommend()">Get Recommendations</button>
+
+    <pre id="output"></pre>
+
+    <script>
+        async function recommend() {
+            const user = document.getElementById("user").value;
+            const k = document.getElementById("k").value;
+
+            const res = await fetch("http://localhost:8000/recommend", {
+                method: "POST",
+                headers: {"Content-Type": "application/json"},
+                body: JSON.stringify({user: parseInt(user), k: parseInt(k)})
+            });
+
+            const data = await res.json();
+            document.getElementById("output").innerText = JSON.stringify(data, null, 2);
+        }
+    </script>
+</body>
+</html>

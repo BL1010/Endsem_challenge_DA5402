@@ -1,0 +1,14 @@
+artifact_uri: file:///mlflow/mlruns/350003706512717624/2bdfe3b1a8374ae3ac7f2c76e950939d/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '350003706512717624'
+lifecycle_stage: active
+run_id: 2bdfe3b1a8374ae3ac7f2c76e950939d
+run_name: abundant-lynx-890
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777305502548
+status: 1
+tags: []
+user_id: root

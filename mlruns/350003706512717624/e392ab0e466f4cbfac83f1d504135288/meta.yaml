@@ -1,0 +1,14 @@
+artifact_uri: file:///mlflow/mlruns/350003706512717624/e392ab0e466f4cbfac83f1d504135288/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '350003706512717624'
+lifecycle_stage: active
+run_id: e392ab0e466f4cbfac83f1d504135288
+run_name: overjoyed-dove-441
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777024043667
+status: 1
+tags: []
+user_id: root

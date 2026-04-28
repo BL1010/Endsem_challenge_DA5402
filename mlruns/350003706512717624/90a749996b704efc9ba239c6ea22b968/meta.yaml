@@ -1,0 +1,14 @@
+artifact_uri: file:///mlflow/mlruns/350003706512717624/90a749996b704efc9ba239c6ea22b968/artifacts
+end_time: 1777005357293
+entry_point_name: ''
+experiment_id: '350003706512717624'
+lifecycle_stage: active
+run_id: 90a749996b704efc9ba239c6ea22b968
+run_name: loud-zebra-479
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777004898520
+status: 4
+tags: []
+user_id: root

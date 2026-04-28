@@ -1,0 +1,14 @@
+artifact_uri: file:///mlflow/mlruns/350003706512717624/363f0c69efe745889405593e79f6dfde/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '350003706512717624'
+lifecycle_stage: active
+run_id: 363f0c69efe745889405593e79f6dfde
+run_name: polite-sponge-564
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777023290168
+status: 1
+tags: []
+user_id: root

@@ -1,0 +1,14 @@
+artifact_uri: file:///mlflow/mlruns/350003706512717624/ac17a3712bfb4600a0b4d6a6978ef2de/artifacts
+end_time: 1777351472896
+entry_point_name: ''
+experiment_id: '350003706512717624'
+lifecycle_stage: active
+run_id: ac17a3712bfb4600a0b4d6a6978ef2de
+run_name: intelligent-hog-694
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777351365572
+status: 3
+tags: []
+user_id: root

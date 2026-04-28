@@ -1,0 +1,14 @@
+artifact_uri: file:///mlflow/mlruns/350003706512717624/109477d15b20444398d2163fd86e2e81/artifacts
+end_time: 1777375252782
+entry_point_name: ''
+experiment_id: '350003706512717624'
+lifecycle_stage: active
+run_id: 109477d15b20444398d2163fd86e2e81
+run_name: wistful-eel-608
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1777375173081
+status: 3
+tags: []
+user_id: root
